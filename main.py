@@ -16,7 +16,6 @@ def main():
         "--report", required=True, help="Report name (e.g., average-rating)"
     )
     args = parser.parse_args()
-    print(args)
 
     if args.report not in REPORTS:
         print(f"Unknown report: {args.report}")
