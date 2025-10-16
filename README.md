@@ -22,26 +22,26 @@
 # Клонируем репозиторий
 git clone https://github.com/Rozzenant/average-rating.git
 cd average-rating
-![Клонирование репозитория](average-rating\images\image.png)
+![Клонирование репозитория](average-rating/images/image.png)
 
 # Создаём и активируем виртуальное окружение
 python -m venv venv
-![Создание venv](average-rating\images\image2.png)
+![Создание venv](average-rating/images/image2.png)
 # Windows
 venv\Scripts\activate
-![Активация venv](average-rating\images\image3.png)
+![Активация venv](average-rating/images/image3.png)
 # Mac/Linux
 source venv/bin/activate
 
 # Устанавливаем зависимости
 pip install -r requirements.txt
-![Установка зависимостей](average-rating\images\image4.png)
+![Установка зависимостей](average-rating/images/image4.png)
 
 # Запуск отчёта
-python main.py --files data/file1.csv data/file2.csv --report average-rating
-![Запуск отчёта](average-rating\images\image5.png)
+python python main.py --files .\data\products1.csv .\data\products2.csv --report average-rating
+![Запуск отчёта](average-rating/images/image5.png)
 
 # Запуск тестов с покрытием
 pytest --cov=reports tests/
-![Тесты](average-rating\images\image6.png)
+![Тесты](average-rating/images/image6.png)
 
