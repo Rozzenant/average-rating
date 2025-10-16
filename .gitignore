@@ -1,0 +1,21 @@
+# Виртуальное окружение
+venv/
+.env
+
+# Python кэш
+__pycache__/
+*.py[cod]
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Сборки и дистрибутивы
+build/
+dist/
+*.egg-info/
+
+# Логи
+*.log
