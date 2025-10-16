@@ -1,7 +1,7 @@
 import argparse
 from tabulate import tabulate
 from utils import read_csv_files
-from reports.average_rating import AverageRatingReport
+from reports.avg_rating import AverageRatingReport
 
 REPORTS = {"average-rating": AverageRatingReport}
 

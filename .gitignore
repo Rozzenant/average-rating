@@ -5,6 +5,8 @@ venv/
 # Python кэш
 __pycache__/
 *.py[cod]
+.pytest_cache
+.coverage
 
 # IDE и редакторы
 .vscode/
