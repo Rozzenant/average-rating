@@ -23,20 +23,20 @@
 git clone https://github.com/Rozzenant/average-rating.git
 cd average-rating
 ```
-![Клонирование репозитория](average-rating/images/image.png)
+![Клонирование репозитория](images/image.png)
 
 ```bash
 # Создаём и активируем виртуальное окружение
 python -m venv venv
 ```
 
-![Создание venv](average-rating/images/image2.png)
+![Создание venv](images/image2.png)
 
 ```bash
 # Windows
 venv\Scripts\activate
 ```
-![Активация venv](average-rating/images/image3.png)
+![Активация venv](images/image3.png)
 
 ```bash
 # Mac/Linux
@@ -47,17 +47,17 @@ source venv/bin/activate
 # Устанавливаем зависимости
 pip install -r requirements.txt
 ```
-![Установка зависимостей](average-rating/images/image4.png)
+![Установка зависимостей](images/image4.png)
 
 ```bash
 # Запуск отчёта
 python python main.py --files .\data\products1.csv .\data\products2.csv --report average-rating
 ```
-![Запуск отчёта](average-rating/images/image5.png)
+![Запуск отчёта](images/image5.png)
 
 ```bash
 # Запуск тестов с покрытием
 pytest --cov=reports tests/
 ```
-![Тесты](average-rating/images/image6.png)
+![Тесты](images/image6.png)
 
