@@ -3,7 +3,12 @@ from collections import defaultdict
 
 
 class AverageRatingReport(BaseReport):
-    """Реализация BaseReport под средние оценки"""
+    """
+    Рассчитывает средний рейтинг товаров по брендам.
+
+    Метод `generate` принимает список словарей с данными о товарах и возвращает таблицу
+    со средним рейтингом для каждого бренда, отсортированную по убыванию.
+    """
 
     def generate(self, data):
         brand_ratings = defaultdict(list)
